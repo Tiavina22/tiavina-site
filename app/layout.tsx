@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 const MontserratFont = Montserrat({ subsets: ["latin"], variable: "--font-caption" });
 
 export const metadata: Metadata = {
-  title: "Tiavina Ramilison - Software Engineer Student",
+  title: "Tiavina Ramilison",
   description: "My website portfolio created with react, tailwind, NextJs, typescript",
 };
 
