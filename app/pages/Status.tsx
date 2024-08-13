@@ -7,6 +7,7 @@ import { ContactCard } from "../components/ContactCard"
 import { Work, WorkProps } from "../components/Work"
 import { EducationProps } from "../components/Education"
 import { Code } from "../components/Code"
+import Image from "next/image"
 
 export const Status = () => {
     return <Section className="flex max-md:flex-col items-start gap-4">
@@ -42,7 +43,7 @@ export const Status = () => {
                 </Card>*/}
                  <p>I am currently in my third year of studying computer science at the public university known as
                      <Code className="inline-flex items-center gap-1">
-                        <img src="/icons/Cntemad.jpeg" width="16" height="16" className="inline" alt="Icons de codeline" />
+                        <Image src="/icons/Cntemad.jpeg" width="16" height="16" className="inline" alt="Icons de codeline" />
                         <span className="font-bold">Cntemad</span>
                     </Code>  . Below is an overview of my academic journey.</p>
             <Card className="p-4 flex-1">
