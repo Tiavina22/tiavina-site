@@ -3,7 +3,6 @@ import { Section } from "../components/Section"
 import { ReactLogo } from "../logo/ReactLogo"
 import { Code } from "../components/Code"
 import { TailwindLogo } from "../logo/TailwindLogo"
-import { OpenAILogo } from "../logo/OpenAiLogo"
 import { NodeLogo } from "../logo/NodejsLogo"
 
 export const Skills = () => {
@@ -25,7 +24,6 @@ export const Skills = () => {
           </div>
           <div className="flex flex-col gap-2  flex-1">
                
-                  <OpenAILogo size={42} className="animate-spin" style={{animationDuration: "10s"}} />
               <h3 className="text-2xl font-semibold tracking-tight mb-2">OpenAI</h3>
               <p className="text-sm text-muted-foreground">My main framework is <Code> React </Code>. I also use <Code>Next.js</Code> as a backend and frontend framework.</p>
           </div>
