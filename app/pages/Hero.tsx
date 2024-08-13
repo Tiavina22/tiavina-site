@@ -10,6 +10,7 @@ import { FlutterLogo } from "../logo/FlutterLogo";
 import { JavascriptLogo } from "../logo/JavascriptLogo";
 import { NodeLogo } from "../logo/NodejsLogo";
 import { DartLogo } from "../logo/DartLogo";
+import Image from "next/image"
 
 
 
@@ -43,7 +44,7 @@ export const Hero = () => {
              {/* 
             <ProfileTiavina size={56} className="inline w-full h-auto max-w-xs max-md:w-56" />
        */}
-       <img src="/images/Dev.png" className="inline w-full h-auto max-w-xs max-md:w-56" alt="" />
+       <Image src="/images/Dev.png" className="inline w-full h-auto max-w-xs max-md:w-56" alt="" />
             </div>
     </Section>
 }
