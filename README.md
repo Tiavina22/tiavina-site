@@ -1,7 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started  <>   eo amin'ny 44mn40s zao (installation card)
-I develop mobile and web applications with a deep passion for technology. Just as a pilot meticulously perfects each flight, I approach software development with a keen focus on precision and innovation. I am driven by a desire to continuously learn and embrace new challenges, always striving to explore new horizons and enhance my skills. My journey in tech is fueled by curiosity and a commitment to creating impactful solutions that elevate user experiences.
+## Getting Started 
 
 First, run the development server:
 
