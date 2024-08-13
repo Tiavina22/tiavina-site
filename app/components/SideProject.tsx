@@ -1,14 +1,14 @@
-import { EyeIcon } from "lucide-react"; // Assurez-vous d'importer les icônes
+import { EyeIcon } from "lucide-react"; 
 import Link from "next/link";
 import { GithubIcon } from "../icons/GithubIcon";
 
 export type SideprojectProps = {
-    imageSrc: string;       // Chemin de l'image à afficher
+    imageSrc: string;       
     title: string;
     description: string;
     url: string;
-    previewUrl: string;     // URL pour prévisualiser le projet
-    githubUrl: string;      // URL pour le dépôt GitHub
+    previewUrl: string;     
+    githubUrl: string;      
 }
 
 export const SideProject = (props: SideprojectProps) => {
@@ -23,12 +23,12 @@ export const SideProject = (props: SideprojectProps) => {
                 <p className="text-lg font-semibold">{props.title}</p>
                 <p className="text-sm text-muted-foreground">{props.description}</p>
             </div>
-            <div className="flex flex-col items-center ml-auto gap-2"> {/* Changement de flex-row à flex-col */}
+            <div className="flex flex-col items-center ml-auto gap-2"> 
                 <Link href={props.previewUrl} className="hover:text-accent transition-colors">
-                    <EyeIcon size={20} /> {/* Icône pour prévisualiser */}
+                    <EyeIcon size={20} /> 
                 </Link>
                 <Link href={props.githubUrl} className="hover:text-accent transition-colors">
-                    <GithubIcon size={20} /> {/* Icône pour GitHub */}
+                    <GithubIcon size={20} /> 
                 </Link>
             </div>
         </div>
