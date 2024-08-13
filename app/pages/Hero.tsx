@@ -10,7 +10,6 @@ import { FlutterLogo } from "../logo/FlutterLogo";
 import { JavascriptLogo } from "../logo/JavascriptLogo";
 import { NodeLogo } from "../logo/NodejsLogo";
 import { DartLogo } from "../logo/DartLogo";
-import Image from "next/image"
 
 
 
