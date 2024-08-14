@@ -16,7 +16,7 @@ export const SideProject = (props: SideprojectProps) => {
     return (
         <div className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-1 rounded">
             
-            <Image src={props.imageSrc} alt={`${props.title} logo`}  className="h-16 w-16 object-cover rounded-sm" />
+            <Image src={props.imageSrc} alt={`${props.title} logo`}  className="uniform-image-size" />
             
                 
             
