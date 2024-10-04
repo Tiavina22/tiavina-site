@@ -16,7 +16,7 @@ import { DartLogo } from "../logo/DartLogo";
 export const Hero = () => {
     return <Section className="flex max-md:flex-col items-start gap-4">
         <div className="flex-[3] w-full flex flex-col gap-2">
-            <p>Hello, i'm</p>
+            <p>Hello, i&apos;m</p>
             <h2 className="font-caption font-bold text-5xl text-primary">Tiavina</h2>
             <h3 className="text-3xl font-caption">
                 I build mobile <br /> <span className="text-blue-500 font-bold">&</span> web application
@@ -32,7 +32,7 @@ export const Hero = () => {
             <Code className="inline-flex items-center gap-1 ml-1"><NodeLogo size={12} className="text-foreground"></NodeLogo> <span className="font-bold">Node</span></Code>
             </div>
             <a
-                href="/CV/CV_TiavinaRamilison.pdf"
+                href="/CV/tiavina_ramilison.mobile_backend_dev.cv.pdf"
                 download
                 className="inline-block mt-4 w-36 px-2 py-2 border-2 border-blue-500 text-blue-500 font-semibold rounded-md shadow-md hover:bg-gray-100 text-center"
             >
@@ -43,7 +43,7 @@ export const Hero = () => {
              {/* 
             <ProfileTiavina size={56} className="inline w-full h-auto max-w-xs max-md:w-56" />
        */}
-       <Image src="/images/Dev.png" width={500} height={500} className="inline w-full h-auto max-w-xs max-md:w-56" alt="" />
+       <img src="/images/Dev.png" className="inline w-full h-auto max-w-xs max-md:w-56" alt="" />
             </div>
     </Section>
 }

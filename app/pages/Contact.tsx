@@ -19,7 +19,7 @@ export const Contact = () => {
             image: "/images/linkedin.jpg",
             mediumImage: "images/profile.jpg",
             description: "Tiavina Ramilison",
-            url: "linkedin.com/in/tiavina-ramilison"
+            url: "https://linkedin.com/in/tiavina-ramilison"
         }]
     
     return <Section className="flex flex-col items-start gap-4">
