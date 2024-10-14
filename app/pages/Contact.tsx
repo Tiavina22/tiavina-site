@@ -8,7 +8,7 @@ export const Contact = () => {
             name: "Gmail",
             className: "flex-1",
             image: "/images/gmail.jpg",
-            mediumImage: "images/profile.jpg",
+            mediumImage: "/images/profile.jpg",
             description: "tiavinaramilison22@gmail.com",
             url: "mailto:tiavinaramilison22@gmail.com",
             
@@ -17,7 +17,7 @@ export const Contact = () => {
             name: "Linkedin",
             className: "flex-1",
             image: "/images/linkedin.jpg",
-            mediumImage: "images/profile.jpg",
+            mediumImage: "/images/profile.jpg",
             description: "Tiavina Ramilison",
             url: "https://linkedin.com/in/tiavina-ramilison"
         }]

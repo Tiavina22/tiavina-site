@@ -43,7 +43,7 @@ export const Status = () => {
                 </Card>*/}
                  <p>I am currently in my third year of studying computer science at the public university known as
                      <Code className="inline-flex items-center gap-1">
-                        <Image src="/icons/Cntemad.jpeg" width="16" height="16" className="inline" alt="Icons de codeline" />
+                        <Image src="/icons/Cntemad.jpeg" width={16} height={16} className="inline object-cover" alt="Logo Cntemad" />
                         <span className="font-bold">Cntemad</span>
                     </Code>  . Below is an overview of my academic journey.</p>
             <Card className="p-4 flex-1">
@@ -62,11 +62,11 @@ export const Status = () => {
 const SIDE_PROJECTS: SideprojectProps[] = [
     {
         imageSrc: "/images/lyrica.jpg",
-        title: "Lyrica",
-        description: "A mobile application for automatically synchronizing song lyrics using timestamps. Lyrica also functions as a music player and currently features 500 lyrics.",
-        url: "/",
-        previewUrl: "/",
-        githubUrl: "/"
+        title: "Lyrify",
+        description: "Lyrify is an app that brings your music to life with perfectly synced lyrics. Dive into a unique musical journey where every song reveals its story, one lyric at a time. In addition to featuring lyrics powered by the lrclib library, Lyrica also includes Malagasy songs from the renowned Tononkira collection. Enjoy a rich and authentic experience that combines precise lyric synchronization with the cultural diversity of Malagasy music and currently features 500 lyrics.",
+        url: "https://lyrica-two.vercel.app",
+        previewUrl: "https://lyrica-two.vercel.app",
+        githubUrl: "https://lyrica-two.vercel.app"
     },
     {
         imageSrc: "/images/matematico.jpg",
@@ -78,7 +78,7 @@ const SIDE_PROJECTS: SideprojectProps[] = [
     },
    
     {
-        imageSrc: "/images/tiny.png",
+        imageSrc: "/images/tiny.jpg",
         title: "Tiny",
         description: "Tiny is a command-line CLI note manager developed in Dart. It enables users to add, list, delete, update, and search notes stored locally in a JSON file.",
         url: "https://github.com/Tiavina22/tiny",
@@ -101,6 +101,18 @@ const SIDE_PROJECTS: SideprojectProps[] = [
         previewUrl: "https://morpion-nodejs.onrender.com/",
         githubUrl: "https://github.com/Tiavina22/morpion2"
     },
+    {
+        imageSrc: "/images/truncated.png",
+        title: "Truncated Package",
+    
+        description: "Truncated is a simple Flutter widget that truncates long text and appends an ellipsis or any custom suffix. It supports expanding the text with a tap and provides smooth animation for opening and closing the text.",
+        url: "https://pub.dev/packages/truncated",
+        previewUrl: "https://pub.dev/packages/truncated",
+        githubUrl: "https://github.com/Tiavina22/truncated"
+    },
+
+
+
 ]
 
 

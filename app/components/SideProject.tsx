@@ -14,9 +14,10 @@ export type SideprojectProps = {
 
 export const SideProject = (props: SideprojectProps) => {
     return (
+        <Link href={props.url} className="block">
         <div className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-1 rounded">
             
-            <Image src={props.imageSrc} alt={`${props.title} logo`}  className="uniform-image-size" />
+            <Image height={50} width={25} src={props.imageSrc} alt={`${props.title} logo`}  className="w-100 h-100" />
             
                 
             
@@ -33,5 +34,6 @@ export const SideProject = (props: SideprojectProps) => {
                 </Link>
             </div>
         </div>
+        </Link>
     );
 }
