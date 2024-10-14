@@ -89,9 +89,9 @@ const SIDE_PROJECTS: SideprojectProps[] = [
         imageSrc:"/images/appistery.jpg",
         title: "Appistery",
         description: "A streaming app that immerses you in the world of Malagasy literature. Discover captivating stories and unique experiences that transport and inspire with every page. Perfect for lovers of traditional and modern Malagasy tales. ",
-        url: "/",
-        previewUrl: "/",
-        githubUrl: "/"
+        url: "https://appistery-site.vercel.app",
+        previewUrl: "https://appistery-site.vercel.app",
+        githubUrl: "https://appistery-site.vercel.app"
     },
     {
         imageSrc: "/images/morpion2.jpg",
