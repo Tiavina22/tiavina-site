@@ -43,7 +43,7 @@ export const Hero = () => {
              {/* 
             <ProfileTiavina size={56} className="inline w-full h-auto max-w-xs max-md:w-56" />
        */}
-       <Image src="/images/Dev.png" height={500} width={500} className="inline w-full h-auto max-w-xs max-md:w-56" alt="" />
+       <Image src="/images/tiavina.png" height={500} width={500} className="inline w-full h-auto max-w-xs max-md:w-56" alt="" />
             </div>
     </Section>
 }
