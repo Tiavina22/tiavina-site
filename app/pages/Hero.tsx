@@ -32,7 +32,7 @@ export const Hero = () => {
             <Code className="inline-flex items-center gap-1 ml-1"><NodeLogo size={12} className="text-foreground"></NodeLogo> <span className="font-bold">Node</span></Code>
             </div>
             <a
-                href="/CV/CV_Tiavina_Ramilison_Dev_Mobile_Flutter.pdf"
+                href="/CV/CV_Tiavina_Ramilison_Dev_Mobile.pdf"
                 download
                 className="inline-block mt-4 w-36 px-2 py-2 border-2 border-blue-500 text-blue-500 font-semibold rounded-md shadow-md hover:bg-gray-100 text-center"
             >
