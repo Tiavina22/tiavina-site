@@ -119,11 +119,19 @@ const SIDE_PROJECTS: SideprojectProps[] = [
 
 const WORKS: WorkProps[] = [
     {
+        image: "/images/logo_vp.png",
+        title: "Mobile developer stage",
+        role: "TypeScript, Javascript, Java, NodeJs, ReactNative",
+        date: "Octobre 2024 - Present",
+        url: "https://online.mg/",
+        freelance: false
+    },
+    {
         image: "/images/logo.jpg",
         title: "Mobile developer",
         role: "As a member of the Mistery Facebook page team, I work as a mobile developer responsible for developing our book streaming and booking application.",
-        date: "2023 - Present",
-        url: "/",
+        date: "Juin 2023 - Present",
+        url: "https://web.facebook.com/p/Mistery-100088866013531/?_rdc=1&_rdr",
         freelance: true
     }
 ]
