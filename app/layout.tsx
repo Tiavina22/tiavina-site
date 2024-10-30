@@ -23,6 +23,7 @@ export default function RootLayout({
     <html lang="en" className="h-full">
       <Head>
         <meta name="google-site-verification" content="KNxCT6FYSHOZR5jAAe0s0pirGFlYBPaAXT-kxQNEK6Q" />
+        <link rel="icon" href="/images/tiavina.png" />
         {/* Vous pouvez ajouter d'autres balises meta ici */}
       </Head>
       <body className={cn(GeistSans.variable, GeistMono.variable, MontserratFont.variable, "font-sans h-full bg-background text-foreground")}>
