@@ -120,7 +120,7 @@ const SIDE_PROJECTS: SideprojectProps[] = [
 const WORKS: WorkProps[] = [
     {
         image: "/images/logo_vp.png",
-        title: "Mobile developer stage",
+        title: "Mobile developer",
         role: "TypeScript, Javascript, Java, NodeJs, ReactNative",
         date: "Octobre 2024 - Present",
         url: "https://online.mg/",
