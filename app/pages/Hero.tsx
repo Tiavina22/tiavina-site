@@ -19,7 +19,7 @@ export const Hero = () => {
             <p>Hello, i&apos;m</p>
             <h2 className="font-caption font-bold text-5xl text-primary">Tiavina</h2>
             <h3 className="text-3xl font-caption">
-                I build mobile app <br /> <span className="text-blue-500 font-bold">&</span> flutter
+                I build mobile app <br /> <span className="text-blue-500 font-bold">&</span> software engineer student
             </h3>
 
             <p className="text-base">Welcome to my world of tech magic! I’m all about crafting innovative digital experiences.
